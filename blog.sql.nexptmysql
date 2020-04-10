@@ -1,0 +1,202 @@
+{
+    "Version": 1.0,
+    "General": {
+        "Project": "",
+        "ProjectOwnerNavicatID": "",
+        "Server": "123456",
+        "Catalog": "",
+        "Schema": "db_1907",
+        "ExportType": "SQL",
+        "ExportDirectoryBookmark": "",
+        "ExportDirectoryPath": "",
+        "TargetCodepage": 65001,
+        "AddTimeStamp": false,
+        "TimeStampFormat": "",
+        "IncludeTitle": false,
+        "FieldDelimiter": "\t",
+        "DateFormat": "DMY",
+        "DateSeparator": "/",
+        "ZeroPaddingDate": false,
+        "TimeSeparator": ":",
+        "DecimalSeparator": ".",
+        "TextQualifier": "\"",
+        "RowDelimiter": "CRLF",
+        "XMLFormat": "Element",
+        "UseBase64": true,
+        "AppendRecord": false,
+        "BlankIfZero": false,
+        "ContinueOnError": true
+    },
+    "Objects": [
+        {
+            "Object": {
+                "Name": "auth_group",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "auth_group",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\auth_group.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "auth_group_permissions",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "auth_group_permissions",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\auth_group_permissions.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "auth_permission",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "auth_permission",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\auth_permission.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_article",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_article",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_article.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_article_tag",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_article_tag",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_article_tag.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_banner",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_banner",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_banner.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_bloguser",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_bloguser",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_bloguser.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_bloguser_groups",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_bloguser_groups",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_bloguser_groups.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_bloguser_user_permissions",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_bloguser_user_permissions",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_bloguser_user_permissions.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_category",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_category",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_category.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_comment",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_comment",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_comment.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_friendlink",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_friendlink",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_friendlink.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "blog_tag",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "blog_tag",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\blog_tag.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "django_admin_log",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "django_admin_log",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\django_admin_log.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "django_content_type",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "django_content_type",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\django_content_type.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "django_migrations",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "django_migrations",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\django_migrations.sql",
+            "AllFields": true,
+            "Fields": []
+        },
+        {
+            "Object": {
+                "Name": "django_session",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "django_session",
+            "TargetFilePath": "C:\\Users\\ASUS\\Desktop\\django_session.sql",
+            "AllFields": true,
+            "Fields": []
+        }
+    ]
+}
